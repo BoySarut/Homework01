@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="./html_homework.css">
+</head>
+
+<body>
+    <h1>Homework HTML</h1>
+    <p>
+        <a href="./index.html">Home</a>
+        <a href="./education.html">Education</a>
+        <a href="./work.html">Work experience</a>
+        <a href="./contact.html">contact</a>
+    </p>
+    <hr>
+    <h1>Contact Me</h1>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+        <p>Enter your Info..</p>
+        <lable for="name">Your name :</lable>
+        <br>
+        <input type="text" name="name">
+        <br>
+        <lable for="mail">E-mail :</lable>
+        <br>
+        <input type="text" name="mail">
+        <br>
+        <lable for="gender">Gender :</lable>
+        <br>
+        <select name="gender">
+            <option value="male">male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <lable for="message">Message</lable>
+        <br>
+        <textarea name="message" rows="20%" cols="40%"></textarea>
+        <br>
+        <input class="button" type="submit" value="Send">
+        <input class="button" type="reset" value="Clear">
+    </form>
